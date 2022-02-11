@@ -23,7 +23,7 @@ Add a url/controller/template /signup
 
 /register creates a new user
 
-https://docs.djangoproject.com/en/1.8/topics/auth/default/#creating-users
+
 
 Login:
 
@@ -35,7 +35,7 @@ Create a login page /login
 
 /login_user uses the code below
 
-https://docs.djangoproject.com/en/1.8/topics/auth/default/#how-to-log-a-user-in
+
 
 Authenticate:
 
@@ -45,7 +45,7 @@ If the user is logged in, show the page.
 
 If not, redirect the user to the login page
 
-https://docs.djangoproject.com/en/1.8/topics/auth/default/#authentication-in-web-requests
+
 
 Logout:
 
@@ -53,7 +53,7 @@ Create a new url/controller for /logout
 
 When /logout is called, redirect user to the home page
 
-https://docs.djangoproject.com/en/1.8/topics/auth/default/#how-to-log-a-user-out
+
 
 Items
 Create a new Item Model with the following fields:
@@ -71,7 +71,7 @@ Create more then 10 items
 
 Pagination
 Add pagination to the items listing page, show 10 items per page
-https://docs.djangoproject.com/en/1.8/topics/pagination/
+
 
 Search
 Add search box to items listing page, search uses GET and query params to generate new page. The search query uses the name and description fields.
@@ -79,7 +79,7 @@ Filter
 Allow the user to filter items by price. Use GET and query params. Filter by a range of prices (0-50, 50-100, 100+).
 Json API for Items
 Add a format query param handler to /items where if the format equals json, then the response is in json
-https://docs.djangoproject.com/en/1.8/ref/request-response/
+
 
 Shopping cart/order
 Create a new Model called Order (This is the shopping cart!)
